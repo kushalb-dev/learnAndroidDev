@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MySecondApp</string>
+    <string name="find_beer">Find Beer!</string>
+</resources>

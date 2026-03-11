@@ -1,0 +1,5 @@
+<resources>
+    <fraction name="find_beer_vertical_bias">0.20</fraction>
+    <dimen name="vertical_padding_between_elements">12dp</dimen>
+    <dimen name="beer_spinner_height">30dp</dimen>
+</resources>
