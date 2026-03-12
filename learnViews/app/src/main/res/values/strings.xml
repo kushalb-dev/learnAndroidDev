@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">learnViews</string>
+    <string name="to">To</string>
+    <string name="message">Message</string>
+    <string name="message_hint">Hello</string>
+    <string name="send">Send</string>
+    <string name="image_description">Image of batman.</string>
+    <string name="layover_text_over_batman">It\'s me Batman!</string>
+    <string name="not_mario_eng">(Not mario!)</string>
+    <string name="not_mario_fre">(Ce n’est pas Mario !)</string>
+    <string name="english_on">En</string>
+    <string name="french_on">Fr</string>
+</resources>

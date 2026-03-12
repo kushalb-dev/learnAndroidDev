@@ -1,0 +1,8 @@
+<resources>
+    <dimen name="around_padding">16dp</dimen>
+    <dimen name="around_padding1">10dp</dimen>
+    <dimen name="start_padding">16dp</dimen>
+    <dimen name="end_padding">16dp</dimen>
+    <dimen name="button_click_me_padding">12dp</dimen>
+    <dimen name="inner_text_padding">9dp</dimen>
+</resources>
