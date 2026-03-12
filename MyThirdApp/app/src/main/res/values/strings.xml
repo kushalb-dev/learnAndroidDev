@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MyThirdApp</string>
+    <string name="edit_text_hint">Enter a message</string>
+    <string name="auto_fill_text_hint">Hello</string>
+    <string name="send_text">Send Message</string>
+    <string name="chooser">Send Message Via…</string>
+</resources>
