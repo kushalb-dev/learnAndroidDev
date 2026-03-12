@@ -1,0 +1,5 @@
+<resources>
+    <dimen name="between_button_padding">10dp</dimen>
+    <dimen name="send_button_end_padding">10dp</dimen>
+    <dimen name="extra_padding_before_edit_text">9dp</dimen>
+</resources>
