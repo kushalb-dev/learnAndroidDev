@@ -1,4 +1,14 @@
 <resources>
     <string name="app_name">MySecondApp</string>
     <string name="find_beer">Find Beer!</string>
+    <string name="default_brands">No Brand Selected!</string>
+
+    <string-array name="type_beers">
+        <item>Select Beer</item>
+        <item>german beer</item>
+        <item>belgian ale</item>
+        <item>irish beer</item>
+        <item>dark beer</item>
+        <item>light beer</item>
+    </string-array>
 </resources>

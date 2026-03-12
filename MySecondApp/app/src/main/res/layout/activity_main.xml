@@ -12,6 +12,7 @@
 
     <Spinner
         android:id="@+id/beer_spinner"
+        android:entries="@array/type_beers"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="14dp"
@@ -29,6 +30,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/find_beer"
+        android:onClick="onClickFindBeer"
         android:layout_margin="@dimen/vertical_padding_between_elements"
         app:layout_constraintTop_toBottomOf="@id/beer_spinner"
         app:layout_constraintBottom_toTopOf="@id/beers"
@@ -40,7 +42,6 @@
         android:id="@+id/beers"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/find_beer"
         android:layout_margin="@dimen/vertical_padding_between_elements"
         app:layout_constraintTop_toBottomOf="@id/find_beer"
         app:layout_constraintBottom_toBottomOf="parent"
