@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">listViewsAndAdapters</string>
+    <string name="logo_description">Logo of Starbuzz Coffee!</string>
+    <string-array name="options_top">
+        <item>Drinks</item>
+        <item>Food</item>
+        <item>Stores</item>
+    </string-array>
+    <string name="drink_photo">Photo of the drink!</string>
+
 </resources>
