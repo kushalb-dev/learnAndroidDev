@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">learnFragmentsTablet</string>
+    <string name="workout_title">Title</string>
+    <string name="workout_description">Description</string>
 </resources>
