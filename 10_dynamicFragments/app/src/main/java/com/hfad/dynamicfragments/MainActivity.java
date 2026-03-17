@@ -1,5 +1,7 @@
 package com.hfad.dynamicfragments;
 
+import static androidx.fragment.app.FragmentTransaction.TRANSIT_FRAGMENT_FADE;
+
 import android.os.Bundle;
 import android.view.View;
 
@@ -51,12 +53,18 @@ public class MainActivity extends AppCompatActivity implements FragmentWorkoutLi
 
     @Override
     public void onClicked(long id) {
-        FragmentWorkoutDetail fragment = FragmentWorkoutDetail.newInstance(id);
+        FragmentWorkoutDetail fragmentWorkoutDetail = FragmentWorkoutDetail.newInstance(id);
         getSupportFragmentManager().beginTransaction()
-                .replace(R.id.detail_pane, fragment)
+                .replace(R.id.detail_pane, fragmentWorkoutDetail)
                 .addToBackStack(null)
                 .commit();
 
+        StopwatchActivityFragment stopwatchActivityFragment = new StopwatchActivityFragment();
+        getSupportFragmentManager().beginTransaction()
+                .add(R.id.stopwatch_container, stopwatchActivityFragment)
+                .addToBackStack(null)
+                .setTransition(TRANSIT_FRAGMENT_FADE)
+                .commit();
         SlidingPaneLayout slidingPaneLayout = findViewById(R.id.sliding_pane_main_page);
         slidingPaneLayout.openPane();
     }
