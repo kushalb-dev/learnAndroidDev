@@ -15,7 +15,7 @@ import android.widget.TextView;
  * A simple {@link Fragment} subclass.
  * Use the {@link WorkoutDetailFragment#newInstance} factory method to
  * create an instance of this fragment.
- */
+ **/
 public class WorkoutDetailFragment extends Fragment {
 
     private static final String ARG_WORKOUT_ID = "workout_id";
@@ -46,9 +46,8 @@ public class WorkoutDetailFragment extends Fragment {
         super.onViewCreated(view, savedInstanceState);
         Workout workout = Workout.workouts[(int) workoutId];
         TextView title = view.findViewById(R.id.fragment_workout_title);
-        TextView description = view.findViewById(R.id.fragment_workout_description);
-
         title.setText(workout.getName());
+        TextView description = view.findViewById(R.id.fragment_workout_description);
         description.setText(workout.getDescription());
     }
 
