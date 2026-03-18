@@ -24,7 +24,7 @@
             android:layout_height="match_parent"
             />
 
-        <androidx.fragment.app.FragmentContainerView
+        <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/stopwatch_pane"
             android:layout_width="300dp"
             android:layout_height="match_parent"
