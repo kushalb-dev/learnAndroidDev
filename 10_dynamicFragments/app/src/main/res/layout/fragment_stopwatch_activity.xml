@@ -17,7 +17,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toTopOf="@id/start_button"
-        android:text="@string/default_time" />
+        />
 
     <Button
         android:id="@+id/start_button"

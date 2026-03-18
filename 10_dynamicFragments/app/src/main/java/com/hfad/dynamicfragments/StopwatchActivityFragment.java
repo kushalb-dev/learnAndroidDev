@@ -29,6 +29,16 @@ public class StopwatchActivityFragment extends Fragment {
         // Required empty public constructor
     }
 
+    public static StopwatchActivityFragment newInstance() {
+        StopwatchActivityFragment fragment = new StopwatchActivityFragment();
+        Bundle args = new Bundle();
+        args.putInt(ARG_SECONDS_COUNT, 0);
+        args.putBoolean(ARG_RUNNING_STATUS, false);
+        args.putBoolean(ARG_WAS_RUNNING_STATUS, false);
+        fragment.setArguments(args);
+        return fragment;
+    }
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

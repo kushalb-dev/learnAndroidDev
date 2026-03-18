@@ -59,12 +59,6 @@ public class MainActivity extends AppCompatActivity implements FragmentWorkoutLi
                 .addToBackStack(null)
                 .commit();
 
-        StopwatchActivityFragment stopwatchActivityFragment = new StopwatchActivityFragment();
-        getSupportFragmentManager().beginTransaction()
-                .add(R.id.stopwatch_container, stopwatchActivityFragment)
-                .addToBackStack(null)
-                .setTransition(TRANSIT_FRAGMENT_FADE)
-                .commit();
         SlidingPaneLayout slidingPaneLayout = findViewById(R.id.sliding_pane_main_page);
         slidingPaneLayout.openPane();
     }
