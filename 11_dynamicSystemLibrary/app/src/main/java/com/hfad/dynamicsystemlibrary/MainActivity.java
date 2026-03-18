@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
 //        EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
         Toolbar toolbar = findViewById(R.id.toolbar);
+        toolbar.setTitle(R.string.company_name);
         setSupportActionBar(toolbar);
         TabLayout tablayout = findViewById(R.id.tab_layout);
         ViewPager2 viewPager = findViewById(R.id.view_pager);
