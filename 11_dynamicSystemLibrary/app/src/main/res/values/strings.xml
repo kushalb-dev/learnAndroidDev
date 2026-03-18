@@ -32,4 +32,8 @@
 
     <string name="order_name_hint">Please enter your name</string>
     <string name="order_details_hint">Please enter order details</string>
+
+    <string name="floating_button_description">Updates the edit text fields</string>
+    <string name="toast_undone">Undone!</string>
+    <string name="snackbar_order_updated">Order Updated!</string>
 </resources>
