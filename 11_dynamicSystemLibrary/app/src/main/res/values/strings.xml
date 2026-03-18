@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">dynamicSystemLibrary</string>
-    <string name="top_fragment">Top Fragment</string>
     <string-array name="pizzas">
         <item>Hawaiian</item>
         <item>Pepperoni</item>
@@ -15,7 +14,11 @@
         <item>Manchester</item>
         <item>Liverpool</item>
     </string-array>
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="top_fragment">Top</string>
+    <string name="pizza_fragment">Pizza</string>
+    <string name="pasta_fragment">Pasta</string>
+    <string name="stores_fragment">Stores</string>
     <string name="share_order">Share Order</string>
     <string name="create_order">Create Order</string>
+    <string name="hello_blank_fragment">Hello Blank Fragment!</string>
 </resources>
