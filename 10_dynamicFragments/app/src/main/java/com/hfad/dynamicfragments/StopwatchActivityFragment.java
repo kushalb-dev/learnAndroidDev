@@ -19,7 +19,7 @@ public class StopwatchActivityFragment extends Fragment {
 
     private static final String ARG_SECONDS_COUNT = "seconds_count";
     private static final String ARG_RUNNING_STATUS = "running";
-    private static final String ARG_WAS_RUNNING_STATUS = "wasRunning";
+    private static final String ARG_WAS_RUNNING_STATUS = "was_running";
 
     private int secondsCount;
     private boolean running;
@@ -27,6 +27,16 @@ public class StopwatchActivityFragment extends Fragment {
 
     public StopwatchActivityFragment() {
         // Required empty public constructor
+    }
+
+    public static StopwatchActivityFragment newInstance() {
+        StopwatchActivityFragment fragment = new StopwatchActivityFragment();
+        Bundle args = new Bundle();
+        args.putInt(ARG_SECONDS_COUNT, 0);
+        args.putBoolean(ARG_RUNNING_STATUS, false);
+        args.putBoolean(ARG_WAS_RUNNING_STATUS, false);
+        fragment.setArguments(args);
+        return fragment;
     }
 
     @Override

@@ -1,5 +1,7 @@
 package com.hfad.dynamicfragments;
 
+import static androidx.fragment.app.FragmentTransaction.TRANSIT_FRAGMENT_FADE;
+
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
@@ -42,6 +44,13 @@ public class FragmentWorkoutDetail extends Fragment {
         Workout workout = Workout.workouts[(int) workoutId];
         ((TextView) view.findViewById(R.id.workout_title)).setText(workout.getName());
         ((TextView) view.findViewById(R.id.workout_description)).setText(workout.getDescription());
+        if (savedInstanceState == null) {
+            StopwatchActivityFragment stopwatchActivityFragment = StopwatchActivityFragment.newInstance();
+            getChildFragmentManager().beginTransaction()
+                    .replace(R.id.stopwatch_container, stopwatchActivityFragment)
+                    .setTransition(TRANSIT_FRAGMENT_FADE)
+                    .commit();
+        }
     }
 
     @Override
