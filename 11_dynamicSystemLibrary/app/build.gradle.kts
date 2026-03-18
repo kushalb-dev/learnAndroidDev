@@ -40,6 +40,8 @@ dependencies {
     implementation(libs.material)
     implementation(libs.legacy.support.v4)
     implementation(libs.recyclerview)
+    implementation(libs.activity)
+    implementation(libs.constraintlayout)
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
