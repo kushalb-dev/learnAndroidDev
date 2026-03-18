@@ -11,11 +11,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DynamicFragments">
         <activity
-            android:name=".TempActivity"
-            android:exported="false" >
-        </activity>
-
-        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

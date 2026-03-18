@@ -1,7 +1,5 @@
 package com.hfad.dynamicfragments;
 
-import static androidx.fragment.app.FragmentTransaction.TRANSIT_FRAGMENT_FADE;
-
 import android.os.Bundle;
 import android.view.View;
 

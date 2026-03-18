@@ -19,7 +19,7 @@ public class StopwatchActivityFragment extends Fragment {
 
     private static final String ARG_SECONDS_COUNT = "seconds_count";
     private static final String ARG_RUNNING_STATUS = "running";
-    private static final String ARG_WAS_RUNNING_STATUS = "wasRunning";
+    private static final String ARG_WAS_RUNNING_STATUS = "was_running";
 
     private int secondsCount;
     private boolean running;
