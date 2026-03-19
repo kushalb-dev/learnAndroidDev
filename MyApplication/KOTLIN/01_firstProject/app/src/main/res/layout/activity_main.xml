@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout_mainPage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.25"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/imageView_linearLayout_mainPage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:contentDescription="@string/imageView_linearLayout_main_description"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_launcher_background" />
+
+        <TextView
+            android:id="@+id/textView1_linearLayout_mainPage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:text="@string/textView1_linearLayout_text" />
+
+        <TextView
+            android:id="@+id/textView2_linearLayout_mainPage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:textStyle="bold|italic"
+            android:text="@string/textView2_linearLayout_text" />
+
+        <LinearLayout
+            style="?android:attr/buttonBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="fill_horizontal|center_horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/button1_linearLayout__"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:text="@string/button1_linearLayout__text" />
+
+            <Button
+                android:id="@+id/button2_linearLayout__"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:text="@string/button2_linearLayout__text" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="?android:attr/buttonBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/button3_linearLayout__"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:text="@string/button3_linearLayout__text" />
+
+            <Button
+                android:id="@+id/button4_linearLayout__"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:text="@string/button4_linearLayout__text" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
