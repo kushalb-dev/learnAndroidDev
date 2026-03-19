@@ -11,4 +11,5 @@
     <string name="textView_achievementsActivity_text">B. Tech Grad\nSWE (1 YOE)\nOpen Source Contributor\nCodeforces Competitor</string>
     <string name="textView_experienceActivity_text"><![CDATA[Intern at Samsung R&D\nSWE (Mobile) at K.system]]></string>
     <string name="textView2_educationActivity_text">+2 From SXC Maitighar\nB.Tech from NIT Jalandhar</string>
+    <string name="switch_mainActivity_text">Dark Mode</string>
 </resources>
