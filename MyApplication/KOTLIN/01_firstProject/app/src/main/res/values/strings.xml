@@ -1,0 +1,14 @@
+<resources>
+    <string name="imageView_linearLayout_main_description">Avatar Image</string>
+    <string name="textView1_linearLayout_text">Kushal Bhandari</string>
+    <string name="textView2_linearLayout_text">Software Engineer</string>
+    <string name="app_name">FirstKotlinApp</string>
+    <string name="button1_linearLayout__text">Skills</string>
+    <string name="button2_linearLayout__text">Experience</string>
+    <string name="button3_linearLayout__text">Education</string>
+    <string name="button4_linearLayout__text">Achievements</string>
+    <string name="textView_skillsActivity_text">Web Dev\nAndroid Dev\nMachine Learning</string>
+    <string name="textView_achievementsActivity_text">B. Tech Grad\nSWE (1 YOE)\nOpen Source Contributor\nCodeforces Competitor</string>
+    <string name="textView_experienceActivity_text"><![CDATA[Intern at Samsung R&D\nSWE (Mobile) at K.system]]></string>
+    <string name="textView2_educationActivity_text">+2 From SXC Maitighar\nB.Tech from NIT Jalandhar</string>
+</resources>
