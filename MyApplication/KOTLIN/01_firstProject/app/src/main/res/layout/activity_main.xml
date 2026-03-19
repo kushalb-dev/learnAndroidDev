@@ -7,6 +7,17 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/switch1_mainPage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/switch_mainActivity_text"
+        android:padding="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="8dp"
+        />
+
     <LinearLayout
         android:id="@+id/linearLayout_mainPage"
         android:layout_width="match_parent"
@@ -33,7 +44,6 @@
             android:layout_height="wrap_content"
             android:padding="5dp"
             android:layout_gravity="center"
-            android:textColor="@color/black"
             android:textStyle="bold"
             android:text="@string/textView1_linearLayout_text" />
 
@@ -43,7 +53,6 @@
             android:layout_height="wrap_content"
             android:padding="5dp"
             android:layout_gravity="center"
-            android:textColor="@color/black"
             android:textStyle="bold|italic"
             android:text="@string/textView2_linearLayout_text" />
 
@@ -56,15 +65,15 @@
 
             <Button
                 android:id="@+id/button1_linearLayout__"
-                style="?android:attr/buttonBarButtonStyle"
-                android:layout_width="140dp"
+                android:layout_width="160dp"
+                android:layout_margin="8dp"
                 android:layout_height="wrap_content"
                 android:text="@string/button1_linearLayout__text" />
 
             <Button
                 android:id="@+id/button2_linearLayout__"
-                style="?android:attr/buttonBarButtonStyle"
-                android:layout_width="140dp"
+                android:layout_margin="8dp"
+                android:layout_width="160dp"
                 android:layout_height="wrap_content"
                 android:text="@string/button2_linearLayout__text" />
 
@@ -78,19 +87,24 @@
 
             <Button
                 android:id="@+id/button3_linearLayout__"
-                style="?android:attr/buttonBarButtonStyle"
-                android:layout_width="140dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_width="160dp"
                 android:layout_height="wrap_content"
                 android:text="@string/button3_linearLayout__text" />
 
             <Button
                 android:id="@+id/button4_linearLayout__"
-                style="?android:attr/buttonBarButtonStyle"
-                android:layout_width="140dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_width="160dp"
                 android:layout_height="wrap_content"
                 android:text="@string/button4_linearLayout__text" />
 
         </LinearLayout>
 
     </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
