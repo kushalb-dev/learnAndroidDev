@@ -5,7 +5,7 @@
     android:id="@+id/education_activity"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".EducationActivity">
+    tools:context=".activities.EducationActivity">
 
     <TextView
         android:id="@+id/textView1_educationActivity"

@@ -11,19 +11,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FirstKotlinApp">
         <activity
-            android:name=".AchievementsActivity"
+            android:name=".activities.AchievementsActivity"
             android:exported="false" />
         <activity
-            android:name=".ExperienceActivity"
+            android:name=".activities.ExperienceActivity"
             android:exported="false" />
         <activity
-            android:name=".EducationActivity"
+            android:name=".activities.EducationActivity"
             android:exported="false" />
         <activity
-            android:name=".SkillsActivity"
+            android:name=".activities.SkillsActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".activities.MainActivity"
             android:theme="@style/Theme.FirstKotlinApp"
             android:exported="true" >
             <intent-filter>
