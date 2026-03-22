@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
     app:startDestination="@id/welcomeFragment2">
 
@@ -15,5 +16,19 @@
     <fragment
         android:id="@+id/createMessageFragment2"
         android:name="com.headfirstandroiddev.app2.CreateMessageFragment"
-        android:label="CreateMessageFragment" />
+        android:label="CreateMessageFragment" >
+        <action
+            android:id="@+id/action_createMessageFragment2_to_encryptFragment2"
+            app:destination="@id/encryptFragment2"
+            app:popUpTo="@id/welcomeFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/encryptFragment2"
+        android:name="com.headfirstandroiddev.app2.EncryptFragment"
+        android:label="fragment_encrypt"
+        tools:layout="@layout/fragment_encrypt" >
+        <argument
+            android:name="message"
+            app:argType="string" />
+    </fragment>
 </navigation>
