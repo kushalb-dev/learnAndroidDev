@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/welcomeFragment2">
+
+    <fragment
+        android:id="@+id/welcomeFragment2"
+        android:name="com.headfirstandroiddev.app2.WelcomeFragment"
+        android:label="WelcomeFragment" >
+        <action
+            android:id="@+id/action_welcomeFragment2_to_messageFragment2"
+            app:destination="@id/createMessageFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/createMessageFragment2"
+        android:name="com.headfirstandroiddev.app2.CreateMessageFragment"
+        android:label="CreateMessageFragment" />
+</navigation>
