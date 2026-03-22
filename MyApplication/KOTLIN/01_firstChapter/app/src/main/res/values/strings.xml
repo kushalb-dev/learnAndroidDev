@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">App1</string>
+
+    <string-array name="spinner1_mainActivity_items">
+        <item>Beer</item>
+        <item>Wine</item>
+        <item>Vodka</item>
+    </string-array>
+
+    <string name="button1_mainActivity_placeholder">Find Drink</string>
+
+    <string name="textView1_mainActivity_placeholder">No drink selected!</string>
+</resources>
